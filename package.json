@@ -1,0 +1,30 @@
+{
+  "name": "webtorrent-extension",
+  "version": "0.0.1",
+  "description": "All you ever imagened, paste magnet link at you'r page and start watching torrent right away.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "check",
+    "compile": "ncc build ./create-torrent.js -o ./torrent-compiled"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Empty-stu/webtorrent-extension.git"
+  },
+  "keywords": [
+    "tcp",
+    "webtorrent",
+    "torrent",
+    "client"
+  ],
+  "author": "nojitsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Empty-stu/webtorrent-extension/issues"
+  },
+  "homepage": "https://github.com/Empty-stu/webtorrent-extension#readme",
+  "dependencies": {
+    "torrent-stream": "^1.2.1"
+  }
+}
